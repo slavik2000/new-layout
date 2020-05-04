@@ -56,7 +56,7 @@ body {
   padding: 0 0 0 16px; }
 
 .heading {
-  background: url("/img/Layer 66@1X.png"); }
+  background: url("../img/Layer 66@1X.png"); }
   .heading__top {
     display: flex;
     padding: 20px 0;
