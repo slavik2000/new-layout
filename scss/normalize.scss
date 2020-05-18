@@ -11,8 +11,6 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-
-
 /* Sections
      ========================================================================== */
 
@@ -147,6 +145,7 @@ sup {
 
 img {
   border-style: none;
+  display: block;
 }
 
 /* Forms
@@ -163,7 +162,7 @@ optgroup,
 select,
 textarea {
   font-family: inherit; /* 1 */
-  // font-size: 100%; 
+  // font-size: 100%;
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
