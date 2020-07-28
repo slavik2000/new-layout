@@ -58,3 +58,28 @@ $(document).ready(function () {
     },
   });
 });
+
+$(document).ready(function () {
+  $(".ss").owlCarousel({
+    items: 1,
+    margin: 10,
+    loop: true,
+    nav: true,
+    navText: [
+      '<i class="fa fa-angle-left fa-2x " aria-hidden="true"></i>',
+      '<i class="fa fa-angle-right fa-2x " aria-hidden="true"></i>',
+    ],
+    dots: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      768: {
+        items: 1,
+      },
+      1180: {
+        items: 1,
+      },
+    },
+  });
+});

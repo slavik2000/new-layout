@@ -19,7 +19,7 @@
     <header class="user">
       <div class="container">
         <div class="user__social-icon user__info_mob">
-          <ul class="user__social">
+          <ul class="user__social ">
             <li class="user__social-item">
               <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
@@ -62,6 +62,20 @@
     </header>
     <section class="heading">
       <div class="container heading__top">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__items">
+            <li><a class="menu__item_mobile" href="#">Студия</a></li>
+            <li><a class="menu__item_mobile" href="#">Клиенты</a></li>
+            <li><a class="menu__item_mobile" href="#">магазин</a></li>
+            <li><a class="menu__item_mobile" href="#">Контакты</a></li>
+            <li><a class="menu__item_mobile" href="#">корзина</a></li>
+          </ul>
+        </div>
+
         <div class="heading__logo">
           <a href="#">LOGO</a>
         </div>
@@ -103,7 +117,8 @@
           <span class="user__line"></span>
           <i class="fa fa-heart-o" aria-hidden="true"></i>
           <span class="user__line"></span>
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <i class="fa fa-shopping-cart" aria-hidden="true"> </i>
+          <span class="shop"></span>
         </div>
       </div>
       <div class="heading__slider">
@@ -208,6 +223,12 @@
             <li class="main__nav-tag"><a href="#">inspiration</a></li>
           </ul>
         </nav>
+
+        <select name="" id="main__nav-select" size="2">
+          <option value="" class="main__nav-option">Sort blog</option>
+          <option value="" class="main__nav-option">all</option>
+          <option value="" class="main__nav-option">photography</option>
+        </select>
       </div>
 
       <div class="container">
@@ -277,7 +298,7 @@
                 <article class="art">
                   <figure class="article__content-3">
                     <div class="article__visual-2">
-                      <img src="img/Layer 64@1X.png" alt="" />
+                      <img src="img/blog6-jpg.png" alt="" />
                       <div class="article__play-2">
                         <i
                           class="fa fa-play-circle-o fa-3x"
@@ -328,6 +349,7 @@
                   </figure>
                 </article>
                 <!-- 3 -->
+                <div class="article__column">
                 <article class="art">
                   <figure class="article__content-4">
                     <div class="article__visual-3">
@@ -350,6 +372,11 @@
                     <figcaption class="article__desc-4">
                       <h3 class="article__title-4">
                         Six Hobbies That Can Help You Beat Stress
+                    
+                      </h3>
+                      <h3 class="article__title_txt">
+                        Lorem ipsum sit amet
+
                       </h3>
                       <p class="article__txt-4">
                         Lorem ipsum dolor sit amet, to consectetur adipi scing
@@ -427,6 +454,7 @@
               </div>
               <!-- 5 -->
               <div class="article__container">
+                <div class="article__column-2">
                 <article class="art">
                   <figure class="article__content-6">
                     <div class="article__visual-5">
@@ -500,10 +528,13 @@
                         </div>
                       </div>
                     </div>
-                    <figcaption class="article__desc-6">
-                      <h3 class="article__title-6">
+                    <figcaption class="article__desc-7">
+                      <h3 class="article__title-7">
                         Food That Actually Taste <br />
                         Better When You Freeze
+                      </h3>
+                      <h3 class="article__title_txt">
+                        Lorem ipsum sit amet
                       </h3>
                       <p class="article__txt-6">
                         Lorem ipsum dolor sit amet, to<br />
@@ -511,10 +542,10 @@
                         Nulla vehicula lorem and lacus. <br />
                         Vestibulum vitae mauris
                       </p>
-                      <div class="article__info-6">
+                      <div class="article__info-7">
                         <div class="article__author-avatar-6">
                           <a href="#">
-                            <img src="img/Photo copy 3@1X.png" alt="" />
+                            <img class="avatar_img" src="img/Photo copy 3@1X.png" alt="" />
                           </a>
                           <div class="article__info-text-6">
                             <div class="article__author-name-6">
@@ -530,6 +561,7 @@
                     </figcaption>
                   </figure>
                 </article>
+              </div>
                 <article class="art">
                   <figure class="article__content-6">
                     <div class="article__visual-5">
@@ -560,13 +592,13 @@
                         </div>
                       </div>
                     </div>
-                    <figcaption class="article__desc-6">
-                      <h3 class="article__title-6">
+                    <figcaption class="article__desc-8">
+                      <h3 class="article__title-8">
                         Food That Actually Taste <br />
                         Better When You Freeze
                       </h3>
                       <p class="article__txt-6">
-                        Lorem ipsum dolor sit amet, to<br />
+                        Lorem ipsum dolor sit amet, to <br />
                         consectetur adipi scing elit. <br />
                         Nulla vehicula lorem and lacus. <br />
                         Vestibulum vitae mauris
@@ -615,6 +647,9 @@
                       <h3 class="article__title-9">
                         11 Fantastic Ways Passionate
                       </h3>
+                      <h3 class="article__title_txt-3">
+                        Lorem ipsum sit amet ipsumo
+                      </h3>
                       <p class="article__txt-9">
                         Lorem ipsum dolor sit amet, to consectetur adipi scing
                         elit. Nulla vel vehicula lorem and lacus. Vestibulum
@@ -624,7 +659,7 @@
                       <div class="article__info-8">
                         <div class="article__author-avatar-8">
                           <a href="#">
-                            <img src="img/Photo@1X (1).png" alt="" />
+                            <img class="avatar__img-8" src="img/Photo@1X (1).png" alt="" />
                           </a>
                           <div class="article__info-text-8">
                             <div class="article__author-name-8">
@@ -663,6 +698,12 @@
                       <h3 class="article__title-9">
                         Art Makes You Mentally Healthy
                       </h3>
+                      <h3 class="article__title_txt-4">
+                        Lorem ipsum dolor sit
+                      </h3>
+                      <h3 class="article__title_txt-5"> 
+                        Lorem ipsum sit amet ipsumo
+                      </h3>
                       <p class="article__txt-10">
                         Lorem ipsum dolor sit amet, to consectetur adipi scing
                         elit. Nulla vel vehicula lorem and lacus. Vestibulum
@@ -672,7 +713,7 @@
                       <div class="article__info-10">
                         <div class="article__author-avatar-10">
                           <a href="#">
-                            <img src="img/Photo copy 3@1X.png" alt="" />
+                            <img class="avatar__img-10" src="img/Photo copy 3@1X.png" alt="" />
                           </a>
                           <div class="article__info-text-9">
                             <div class="article__author-name-9">
@@ -702,6 +743,15 @@
             <!-- feed -->
           </div>
           <aside class="sidebar__main">
+            <div class="sidebar__main_logo">
+              LOGO
+            </div>
+            <div class="sidebar__main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo quam dolore nostrum eum hic voluptate corporis dolor mollitia in quas enim, deserunt tenetur fugiat porro modi perspiciatis, rerum aperiam.
+            </div>
+            <div class="sidebar__main_btn">
+               READ MORE
+               
+              </div>
             <div class="sidebar__search">
               <input type="text" placeholder="Search" />
               <i class="fa fa-search" aria-hidden="true"></i>
@@ -1079,6 +1129,36 @@
       <footer class="footer">
         <div class="container">
           <div class="footer__lower">
+            <div class="footer__lower_social">
+            <ul class="">
+              <li class="footer__lower_social-item">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li class="footer__lower_social-item">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li class="footer__lower_social-item">
+                <a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+              </li>
+              <li class="footer__lower_social-item">
+                <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+              </li>
+              <li class="footer__lower_social-item">
+                <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+              </li>
+              <li class="footer__lower_social-item">
+                <a href=""><i class="fa fa-behance" aria-hidden="true"></i></a>
+              </li>
+              <li class="footer__lower_social-item">
+                <a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__lower_copyright">
+            <p>2016 LOGO</p>
+            <span></span>
+            <p>All Rights Reserved</p>
+          </div>
             <div class="footer__lower_nav">
               <ul>
                 <li class="nav-active">
@@ -1113,6 +1193,7 @@
               <span> ENG </span>
               <i class="fa fa-angle-down" aria-hidden="true"></i>
             </div>
+
           </div>
         </div>
       </footer>
