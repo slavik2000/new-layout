@@ -291,7 +291,7 @@ body {
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ccc;
+    background-color: #822dfd;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
     z-index: 2;
@@ -303,7 +303,7 @@ body {
 
   .menu__items {
     display: block;
-    padding: 54px 24px;
+    padding: 105px 24px;
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-weight: 600;
@@ -381,7 +381,7 @@ body {
           font-weight: 700;
           text-transform: uppercase;
           letter-spacing: 0.7px;
-          margin: 0 0 0 18px;
+          margin: 0 0 0 15px;
 
           &:hover {
             border-bottom: 4px solid #ff4081;
@@ -406,7 +406,7 @@ body {
 .article {
   &__desc {
     text-align: center;
-    padding: 185px 0 65px 0;
+    padding: 170px 0 65px 0;
   }
 
   &__author {
@@ -494,6 +494,12 @@ body {
       color: #ffffff;
       text-decoration: none;
     }
+  }
+}
+
+@media (max-width: 960px) {
+  .article__desc {
+    display: none;
   }
 }
 
@@ -2523,7 +2529,7 @@ body {
   }
   .sidebar__main_btn {
     background-color: #303030;
-    margin: 10px 144px 0 0;
+    margin: 10px 137px 0 0;
     padding: 0px 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -2558,6 +2564,11 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  #main__slider {
+    display: none;
+  }
+}
 .subscribe {
   &__background {
     background: #242527;
@@ -2616,7 +2627,7 @@ body {
 
 .footer {
   &__main {
-    background-color: #212121;
+    background-color: #242527;
   }
 
   &__title {
@@ -2921,7 +2932,7 @@ body {
 
   &__lower {
     padding: 35px 0 35px 0;
-    display: flex;
+    // display: flex;
     align-items: center;
     justify-content: space-between;
 
@@ -2986,6 +2997,12 @@ body {
         padding: 0 3px 0 0;
       }
     }
+  }
+}
+
+@media (min-width: 480px) {
+  .footer__lower {
+    display: flex;
   }
 }
 
@@ -3066,7 +3083,7 @@ body {
   p {
     margin: 0px 0 0 0;
     color: #909090;
-    font-size: 10px;
+    font-size: 14px;
   }
   span {
     width: 1px;
@@ -3091,6 +3108,13 @@ body {
   color: #fff !important;
   background: #fff;
   outline: none;
+}
+
+@media (max-width: 960px) {
+  .fa-angle-left:before,
+  .fa-angle-right:before {
+    display: none;
+  }
 }
 
 .owl-next {

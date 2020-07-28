@@ -198,7 +198,7 @@ body {
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ccc;
+    background-color: #822dfd;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
     z-index: 2; }
@@ -206,7 +206,7 @@ body {
       color: #333; }
   .menu__items {
     display: block;
-    padding: 54px 24px;
+    padding: 105px 24px;
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-weight: 600;
@@ -266,7 +266,7 @@ body {
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.7px;
-        margin: 0 0 0 18px; }
+        margin: 0 0 0 15px; }
         .heading__icons ul li a:hover {
           border-bottom: 4px solid #ff4081;
           padding: 0 0 15px 0; }
@@ -281,7 +281,7 @@ body {
 
 .article__desc {
   text-align: center;
-  padding: 185px 0 65px 0; }
+  padding: 170px 0 65px 0; }
 
 .article__author-avatar {
   margin: 75px 0px 0px 0px; }
@@ -350,6 +350,10 @@ body {
   .article__likes a {
     color: #ffffff;
     text-decoration: none; }
+
+@media (max-width: 960px) {
+  .article__desc {
+    display: none; } }
 
 .button {
   font-size: 24px;
@@ -1822,7 +1826,7 @@ body {
     color: #fff; }
   .sidebar__main_btn {
     background-color: #303030;
-    margin: 10px 144px 0 0;
+    margin: 10px 137px 0 0;
     padding: 0px 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -1845,6 +1849,10 @@ body {
 .main__slider {
   display: flex;
   justify-content: center; }
+
+@media (max-width: 480px) {
+  #main__slider {
+    display: none; } }
 
 .subscribe__background {
   background: #242527; }
@@ -1888,7 +1896,7 @@ body {
     display: none; } }
 
 .footer__main {
-  background-color: #212121; }
+  background-color: #242527; }
 
 .footer__title {
   color: #ffffff;
@@ -2093,7 +2101,6 @@ body {
   background: #303030; }
   .footer__lower {
     padding: 35px 0 35px 0;
-    display: flex;
     align-items: center;
     justify-content: space-between; }
     .footer__lower_nav {
@@ -2136,6 +2143,10 @@ body {
       .footer__lower_lang span {
         font-size: 12px;
         padding: 0 3px 0 0; }
+
+@media (min-width: 480px) {
+  .footer__lower {
+    display: flex; } }
 
 @media (min-width: 480px) {
   .footer__lower ul {
@@ -2191,7 +2202,7 @@ body {
   .footer__lower_copyright p {
     margin: 0px 0 0 0;
     color: #909090;
-    font-size: 10px; }
+    font-size: 14px; }
   .footer__lower_copyright span {
     width: 1px;
     height: 16px;
@@ -2211,6 +2222,11 @@ body {
   color: #fff !important;
   background: #fff;
   outline: none; }
+
+@media (max-width: 960px) {
+  .fa-angle-left:before,
+  .fa-angle-right:before {
+    display: none; } }
 
 .owl-next {
   position: absolute;
