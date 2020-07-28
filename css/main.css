@@ -299,10 +299,10 @@ body {
 
 .article__title {
   color: #ffffff;
-  font-size: 42px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  margin: 16px 0 34px 0; }
+  margin: 16px 0px 34px 0px; }
 
 .article__author-avatar img {
   border-radius: 50%;
@@ -2190,7 +2190,8 @@ body {
   justify-content: center; }
   .footer__lower_copyright p {
     margin: 0px 0 0 0;
-    color: #909090; }
+    color: #909090;
+    font-size: 10px; }
   .footer__lower_copyright span {
     width: 1px;
     height: 16px;
@@ -2205,7 +2206,7 @@ body {
 .owl-prev {
   position: absolute;
   left: 30px;
-  top: 50%;
+  top: 80%;
   transform: translatey(-90px);
   color: #fff !important;
   background: #fff;
@@ -2214,7 +2215,7 @@ body {
 .owl-next {
   position: absolute;
   right: 30px;
-  top: 50%;
+  top: 80%;
   transform: translatey(-90px);
   color: #fff !important;
   background: #fff;
