@@ -881,24 +881,26 @@ body {
 }
 
 @media (max-width: 480px) {
-  .article__author-avatar-3 img {
-    display: none;
-  }
-  .article__title-3 {
-    opacity: 0.87;
-    color: #000000;
-    font-size: 13px;
-    margin: 4px 5px 5px 5px;
-    padding: 0 3px;
-    line-height: 1;
-  }
-  .article__info-3 {
-    padding: 0 10px;
-    align-items: flex-end;
-    border-top: 1px solid #e0e0e0;
-  }
-  .article__info_more {
-    padding: 0 0 5px 0;
+  .article {
+    &__author-avatar-3 img {
+      display: none;
+    }
+    &__title-3 {
+      opacity: 0.87;
+      color: #000000;
+      font-size: 13px;
+      margin: 4px 5px 5px 5px;
+      padding: 0 3px;
+      line-height: 1;
+    }
+    &__info-3 {
+      padding: 0 10px;
+      align-items: flex-end;
+      border-top: 1px solid #e0e0e0;
+    }
+    &__info_more {
+      padding: 0 0 5px 0;
+    }
   }
 }
 
