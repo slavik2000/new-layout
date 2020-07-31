@@ -1708,7 +1708,7 @@ body {
 .sidebar__post_button {
   font-size: 14px;
   font-variant: small-caps;
-  padding: 11px 21px 10px 26px;
+  padding: 11px 30px 10px 26px;
   cursor: pointer; }
   .sidebar__post_button:hover {
     color: #ffffff;
@@ -1782,7 +1782,7 @@ body {
     display: none; }
   .sidebar__title {
     border-bottom: none;
-    color: #fff; }
+    color: #942323; }
   .sidebar__tags_item a {
     color: #909090; }
   .sidebar__tags_item {
@@ -2049,7 +2049,8 @@ body {
     outline: none; }
   .footer__widget_img {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
 
 @media (max-width: 768px) {
   .footer__widget_social {

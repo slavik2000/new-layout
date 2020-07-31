@@ -2361,7 +2361,7 @@ body {
       font-size: 14px;
       font-variant: small-caps;
       // letter-spacing: 0.8px;
-      padding: 11px 21px 10px 26px;
+      padding: 11px 30px 10px 26px;
       cursor: pointer;
 
       &:hover {
@@ -2471,7 +2471,7 @@ body {
     }
     &__title {
       border-bottom: none;
-      color: #fff;
+      color: #942323;
     }
     &__tags_item a {
       color: #909090;
@@ -2880,7 +2880,7 @@ body {
     &_img {
       display: flex;
       flex-wrap: wrap;
-      // justify-content: center;
+      justify-content: center;
     }
   }
 }

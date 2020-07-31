@@ -34,6 +34,7 @@
   overflow: hidden;
   /* fix for flashing background */
   -webkit-transform: translate3d(0px, 0px, 0px);
+  background-image: url(../img/blog1-jpg.png);
 }
 .owl-carousel .owl-wrapper,
 .owl-carousel .owl-item {
@@ -55,7 +56,12 @@
 .owl-carousel .owl-item img {
   /* display: block;
     width: 100%;  */
-  margin: 0 auto;
+  /* margin: 0 auto; */
+}
+@media (max-width: 1180px) {
+  .owl-carousel .owl-item img {
+    margin: 10px auto;
+  }
 }
 .owl-carousel .owl-nav.disabled,
 .owl-carousel .owl-dots.disabled {
