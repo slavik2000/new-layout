@@ -22,6 +22,7 @@ ul li {
 }
 
 a {
+  color: #000;
   text-decoration: none;
   &:hover {
     // text-decoration: underline;
@@ -767,7 +768,7 @@ body {
 
 @media (max-width: 480px) {
   .article__visual-2-tag-3 {
-    top: 42px;
+    top: 68%;
     left: 20px;
   }
 }
@@ -783,7 +784,7 @@ body {
 @media (max-width: 480px) {
   .article__visual-2-activity-2 {
     left: 20px;
-    top: 60px;
+    top: 85px;
     // bottom: 10px;
   }
 }
@@ -816,10 +817,10 @@ body {
     color: #000000;
     font-size: 16px;
     font-weight: 700;
-    line-height: 29px;
+    line-height: 19px;
     letter-spacing: 0.9px;
-    padding: 0 20px;
-    margin: 4px 0 5px 0;
+    padding: 5px 20px 0 20px;
+    margin: 0;
   }
 
   &__txt-3 {
@@ -835,7 +836,7 @@ body {
   }
 
   &__info-3 {
-    padding: 9px 20px 5px 20px;
+    padding: 10px 20px 5px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -880,6 +881,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .article__info-3 {
+    padding: 3px 20px 5px 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .article {
     &__author-avatar-3 img {
@@ -904,9 +911,15 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .article__txt-3 {
     display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .article__txt-3 {
+    padding: 0 20px 7px 20px;
   }
 }
 
@@ -947,7 +960,7 @@ body {
 
     &-tag-4 {
       margin: 0;
-      bottom: 62%;
+      bottom: 10%;
       // top: 135px;
       position: absolute;
       left: 20px;
@@ -958,7 +971,7 @@ body {
     &-activity-3 {
       position: absolute;
       right: 20px;
-      bottom: 20%;
+      bottom: 10%;
       display: flex;
       align-items: center;
       font-size: 12px;
@@ -969,7 +982,7 @@ body {
 @media (max-width: 480px) {
   .article__visual-3-tag-4 {
     // bottom:24px;
-    bottom: 34%;
+    bottom: 25%;
   }
 }
 
@@ -1005,7 +1018,7 @@ body {
     color: #000000;
     font-size: 16px;
     font-weight: 700;
-    line-height: 29px;
+    // line-height: 29px;
     letter-spacing: 0.9px;
     padding: 0 20px;
     margin: 4px 0;
@@ -1013,7 +1026,7 @@ body {
 
   &__txt-4 {
     line-height: 26px;
-    padding: 0px 23px 14px 18px;
+    padding: 0px 23px 0px 18px;
     border-bottom: 1px solid #e0e0e0;
     margin: 0;
     opacity: 0.87;
@@ -1024,7 +1037,7 @@ body {
   }
 
   &__info-4 {
-    padding: 10px 20px 4px 20px;
+    padding: 10px 20px 2px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1082,6 +1095,12 @@ body {
     &__info-4 {
       padding: 0px 10px 4px 10px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .article__txt-4 {
+    display: none;
   }
 }
 
@@ -1152,7 +1171,7 @@ body {
 
     &-tag-5 {
       margin: 0;
-      bottom: 24px;
+      bottom: 30px;
       position: absolute;
       left: 20px;
       font-size: 12px;
@@ -1218,22 +1237,22 @@ body {
     color: #000000;
     font-size: 16px;
     font-weight: 700;
-    line-height: 29px;
+    // line-height: 29px;
     letter-spacing: 0.9px;
     padding: 0 20px;
-    margin: 4px 0;
+    margin: 4px 0 0 0;
   }
 
   &__txt-5 {
-    padding: 0 20px 14px 20px;
+    padding: 0 20px 0px 20px;
     border-bottom: 1px solid #e0e0e0;
     margin: 0;
     opacity: 0.87;
     color: #000000;
     font-size: 13px;
-    line-height: 21px;
+    line-height: 19px;
     letter-spacing: 0.56px;
-    margin: 5px 0 0 0;
+    // margin: 5px 0 0 0;
   }
   &__info-5 {
     padding: 10px 20px 5px 20px;
@@ -1273,6 +1292,7 @@ body {
 
     a {
       color: #fff;
+      display: flex;
     }
   }
 }
@@ -1301,7 +1321,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .article__txt-5 {
     display: none;
   }
@@ -1310,6 +1330,11 @@ body {
 @media (max-width: 480px) {
   .article__info-5 {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .article__info-5 {
+    padding: 0 20px 0 20px;
   }
 }
 
@@ -1350,14 +1375,14 @@ body {
       margin: 0;
       bottom: 20px;
       position: absolute;
-      left: 20px;
+      right: 20px;
       font-size: 12px;
       text-transform: uppercase;
     }
 
     &-activity-5 {
       position: absolute;
-      right: 20px;
+      left: 20px;
       // left: 20px;
       bottom: 20px;
       display: flex;
@@ -1376,6 +1401,7 @@ body {
 @media (max-width: 480px) {
   .article__visual-5-tag-6 {
     bottom: 33px;
+    left: 20px;
   }
 }
 
